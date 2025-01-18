@@ -56,7 +56,7 @@ const PolygonModal = ({ visible, waypoints, onClose, onImportPoints }) => {
       title="Polygon Modal"
       visible={visible}
       onCancel={onClose}
-      maskClosable={false}
+      // maskClosable={false}
       footer={[
         <Button key="import" type="primary" onClick={() => onImportPoints(points)}>
           Import Points

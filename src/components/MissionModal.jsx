@@ -63,7 +63,7 @@ const MissionModal = ({ visible, waypoints, onClose, onInsertPolygonBefore, onIn
             title="Mission Creation"
             open={visible}
             onCancel={onClose}
-            maskClosable={false}
+            // maskClosable={false}
             mask={false}
             footer={
                 <Button type="primary" disabled={!hasWaypoints}>
